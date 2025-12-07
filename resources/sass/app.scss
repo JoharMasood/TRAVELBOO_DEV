@@ -1,0 +1,89 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/dist/css/bootstrap.min.css';
+// main.styl
+@import '~vuetify/dist/vuetify.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+.v-btn.my-btn {
+    min-width: 20px !important;
+}
+.header--dark {
+    background-color: #333;
+    color: #fff;
+}
+.random-color {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-color{
+    background-color: #0a53be;
+}
+.link-active {
+    color: #e56137!important; /* Change the color to whatever you want */
+    font-weight: bold;
+}
+
+.link {
+    font-family: 'Alkatra', cursive;
+    text-decoration: none;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.link:hover {
+    color: #ffffff;
+}
+
+.btnn {
+    border-radius: 20px;
+    padding: 13px 23px;
+    //padding: 8px 19px 8px 19px;
+    background-color: #e56137;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnn:focus {
+    background-color: #f0582b;
+    color: #ffffff;
+}
+
+.btnn:hover {
+    background-color: #f0582b;
+    color: #ffffff;
+}
+
+.btnn-active {
+    background-color: #f0582b;
+    color: #ffffff;
+}
+
+
+
+.navbar-scrolled {
+    color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.login_background {
+    background-image: url("/assets/L1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: -56px;
+}
+body{
+    background-color: #f5f4ed !important;
+}
